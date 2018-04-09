@@ -16,3 +16,8 @@ Um zu überprüfen ob die beiden Container korrekt aufgesetzt wurden, wird folge
 ```
 docker ps
 ```
+In der Ausgabe dieses Befehles sind die einzelnen Container und auch ihre Ports sichtbar:
+```
+14c9b3c8cbbe        wordpress           "docker-entrypoint.s…"   33 minutes ago      Up 33 minutes       0.0.0.0:32768->80/tcp    test-wordpress
+789a65e428f4        mysql               "docker-entrypoint.s…"   About an hour ago   Up 42 minutes       0.0.0.0:6603->3306/tcp   test-mysql
+```
